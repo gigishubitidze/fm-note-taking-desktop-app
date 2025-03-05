@@ -1,6 +1,6 @@
 {
   "name": "note-taking-app",
-  "homepage": "https://gigishubitidze.github.io/fm-note-taking-desktop-app/",
+  "homepage": "https://gigishubitidze.github.io/fm-note-taking-desktop-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
