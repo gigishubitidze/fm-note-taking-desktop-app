@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fm-note-taking-desktop-app/static/css/main.69053253.css",
-    "main.js": "/fm-note-taking-desktop-app/static/js/main.fcba783d.js",
-    "static/js/260.d8a1e0b1.chunk.js": "/fm-note-taking-desktop-app/static/js/260.d8a1e0b1.chunk.js",
+    "main.js": "/fm-note-taking-desktop-app/static/js/main.a682fc82.js",
+    "static/js/260.d3e3a962.chunk.js": "/fm-note-taking-desktop-app/static/js/260.d3e3a962.chunk.js",
     "static/js/991.94013edb.chunk.js": "/fm-note-taking-desktop-app/static/js/991.94013edb.chunk.js",
     "static/js/900.776e5731.chunk.js": "/fm-note-taking-desktop-app/static/js/900.776e5731.chunk.js",
     "static/js/453.42ec71a8.chunk.js": "/fm-note-taking-desktop-app/static/js/453.42ec71a8.chunk.js",
@@ -36,8 +36,8 @@
     "static/media/icon-info.svg": "/fm-note-taking-desktop-app/static/media/icon-info.53da8cffc9b00316df1fa15a9216ab9a.svg",
     "static/media/icon-cross.svg": "/fm-note-taking-desktop-app/static/media/icon-cross.2274b3ff980fee9d918ce22d9270d578.svg",
     "main.69053253.css.map": "/fm-note-taking-desktop-app/static/css/main.69053253.css.map",
-    "main.fcba783d.js.map": "/fm-note-taking-desktop-app/static/js/main.fcba783d.js.map",
-    "260.d8a1e0b1.chunk.js.map": "/fm-note-taking-desktop-app/static/js/260.d8a1e0b1.chunk.js.map",
+    "main.a682fc82.js.map": "/fm-note-taking-desktop-app/static/js/main.a682fc82.js.map",
+    "260.d3e3a962.chunk.js.map": "/fm-note-taking-desktop-app/static/js/260.d3e3a962.chunk.js.map",
     "991.94013edb.chunk.js.map": "/fm-note-taking-desktop-app/static/js/991.94013edb.chunk.js.map",
     "900.776e5731.chunk.js.map": "/fm-note-taking-desktop-app/static/js/900.776e5731.chunk.js.map",
     "453.42ec71a8.chunk.js.map": "/fm-note-taking-desktop-app/static/js/453.42ec71a8.chunk.js.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.69053253.css",
-    "static/js/main.fcba783d.js"
+    "static/js/main.a682fc82.js"
   ]
 }
