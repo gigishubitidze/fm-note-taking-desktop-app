@@ -8,6 +8,7 @@ import { ReactComponent as LockIcon } from "../../assets/images/icon-lock.svg";
 import { ReactComponent as LogoutIcon } from "../../assets/images/icon-logout.svg";
 import Divider from "../../components/Divider.styled";
 import { Outlet } from "react-router";
+import { BASE_URL } from "../../Router";
 
 const SettingsContainer = styled.div`
   flex: 1;
@@ -37,17 +38,17 @@ function Settings() {
     <SettingsContainer>
       <Menu>
         <StyledList>
-          <NavListItem icon={SunIcon} to="/settings/colors">
+          <NavListItem icon={SunIcon} to={`${BASE_URL}/settings/colors`}>
             Color Theme
           </NavListItem>
-          <NavListItem icon={FontIcon} to="/settings/fonts">
+          <NavListItem icon={FontIcon} to={`${BASE_URL}/settings/fonts`}>
             Font Theme
           </NavListItem>
-          <NavListItem icon={LockIcon} to="/settings/change-password">
+          <NavListItem icon={LockIcon} to={`${BASE_URL}/settings/change-password`}>
             Change Password
           </NavListItem>
           <Divider $margin="0px" />
-          <NavListItem icon={LogoutIcon} to="/settings/logout">
+          <NavListItem icon={LogoutIcon} to={`${BASE_URL}/settings/logout`}>
             Logout
           </NavListItem>
         </StyledList>
