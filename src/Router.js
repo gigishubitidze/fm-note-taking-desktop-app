@@ -9,9 +9,6 @@ const Notes = lazy(() => import("./pages/notes/Notes"));
 const Settings = lazy(() => import("./pages/settings/Settings"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
-export const BASE_URL =
-  process.env.NODE_ENV === "production" ? process.env.PUBLIC_URL : "";
-
 const routes = [
   {
     path: "/",

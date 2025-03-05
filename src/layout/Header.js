@@ -3,7 +3,6 @@ import { useLocation, useMatches, useNavigate } from "react-router";
 import styled from "styled-components";
 import { ReactComponent as SettingsIcon } from "../assets/images/icon-settings.svg";
 import SearchField from "../components/inputs/SearchField";
-import { BASE_URL } from "../Router";
 
 const StyledHeader = styled.header`
   min-height: 81px;
@@ -72,12 +71,12 @@ function Header() {
               e.preventDefault();
               return;
             }
-            navigate(`${BASE_URL}/search/${searchQuery.trim()}`);
+            navigate(`/search/${searchQuery.trim()}`);
           }
         }}
       />
       <SettingsIconWrapper>
-        <SettingsIcon onClick={() => navigate(`${BASE_URL}/settings`)} />
+        <SettingsIcon onClick={() => navigate("/settings")} />
       </SettingsIconWrapper>
     </StyledHeader>
   );

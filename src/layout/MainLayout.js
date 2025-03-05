@@ -7,7 +7,6 @@ import NavListItem from "../components/NavListItem";
 import SimpleBarScroll from "../components/SimpleBarScroll";
 import Divider from "../components/Divider.styled";
 import Header from "./Header";
-import { BASE_URL } from "../Router";
 //
 import { ReactComponent as TagIcon } from "../assets/images/icon-tag.svg";
 import { ReactComponent as LogoIcon } from "../assets/images/logo.svg";
@@ -91,13 +90,13 @@ function MainLayout() {
         <StyledToastContainer />
         <Sidebar>
           <LogoContainer>
-            <StyledLogoIcon onClick={() => navigate(`${BASE_URL}/`)} />
+            <StyledLogoIcon onClick={() => navigate("/")} />
           </LogoContainer>
           <NavList>
-            <NavListItem icon={HomeIcon} to={`${BASE_URL}/all-notes`}>
+            <NavListItem icon={HomeIcon} to={"/all-notes"}>
               All Notes
             </NavListItem>
-            <NavListItem icon={ArchiveIcon} to={`${BASE_URL}/archived-notes`}>
+            <NavListItem icon={ArchiveIcon} to={"/archived-notes"}>
               Archived Notes
             </NavListItem>
           </NavList>
@@ -112,7 +111,7 @@ function MainLayout() {
                 <NavListItem
                   key={tagName}
                   icon={TagIcon}
-                  to={`${BASE_URL}/tag/${tagName}`}
+                  to={`/tag/${tagName}`}
                 >
                   {tagName}
                 </NavListItem>
