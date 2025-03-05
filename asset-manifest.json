@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/fm-note-taking-desktop-app/static/css/main.69053253.css",
-    "main.js": "/fm-note-taking-desktop-app/static/js/main.a682fc82.js",
+    "main.js": "/fm-note-taking-desktop-app/static/js/main.5c2d7692.js",
     "static/js/260.d3e3a962.chunk.js": "/fm-note-taking-desktop-app/static/js/260.d3e3a962.chunk.js",
-    "static/js/991.94013edb.chunk.js": "/fm-note-taking-desktop-app/static/js/991.94013edb.chunk.js",
+    "static/js/991.d8a2e3cb.chunk.js": "/fm-note-taking-desktop-app/static/js/991.d8a2e3cb.chunk.js",
     "static/js/900.776e5731.chunk.js": "/fm-note-taking-desktop-app/static/js/900.776e5731.chunk.js",
     "static/js/453.42ec71a8.chunk.js": "/fm-note-taking-desktop-app/static/js/453.42ec71a8.chunk.js",
     "static/css/656.5296cdb0.chunk.css": "/fm-note-taking-desktop-app/static/css/656.5296cdb0.chunk.css",
@@ -36,9 +36,9 @@
     "static/media/icon-info.svg": "/fm-note-taking-desktop-app/static/media/icon-info.53da8cffc9b00316df1fa15a9216ab9a.svg",
     "static/media/icon-cross.svg": "/fm-note-taking-desktop-app/static/media/icon-cross.2274b3ff980fee9d918ce22d9270d578.svg",
     "main.69053253.css.map": "/fm-note-taking-desktop-app/static/css/main.69053253.css.map",
-    "main.a682fc82.js.map": "/fm-note-taking-desktop-app/static/js/main.a682fc82.js.map",
+    "main.5c2d7692.js.map": "/fm-note-taking-desktop-app/static/js/main.5c2d7692.js.map",
     "260.d3e3a962.chunk.js.map": "/fm-note-taking-desktop-app/static/js/260.d3e3a962.chunk.js.map",
-    "991.94013edb.chunk.js.map": "/fm-note-taking-desktop-app/static/js/991.94013edb.chunk.js.map",
+    "991.d8a2e3cb.chunk.js.map": "/fm-note-taking-desktop-app/static/js/991.d8a2e3cb.chunk.js.map",
     "900.776e5731.chunk.js.map": "/fm-note-taking-desktop-app/static/js/900.776e5731.chunk.js.map",
     "453.42ec71a8.chunk.js.map": "/fm-note-taking-desktop-app/static/js/453.42ec71a8.chunk.js.map",
     "656.5296cdb0.chunk.css.map": "/fm-note-taking-desktop-app/static/css/656.5296cdb0.chunk.css.map",
@@ -46,6 +46,6 @@
   },
   "entrypoints": [
     "static/css/main.69053253.css",
-    "static/js/main.a682fc82.js"
+    "static/js/main.5c2d7692.js"
   ]
 }
